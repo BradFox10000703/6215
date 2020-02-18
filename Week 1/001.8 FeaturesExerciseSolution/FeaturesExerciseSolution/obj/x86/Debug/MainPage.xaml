@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="FeaturesExerciseSolution.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FeaturesExerciseSolution"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightSlateGray">
+
+    <Grid>
+        <Button x:ConnectionId='2' Content="Button" Height="77" Margin="348,598,0,0" VerticalAlignment="Top" Width="487"                     />
+        <TextBlock x:ConnectionId='3' x:Name="Output" HorizontalAlignment="Left" Margin="38,31,0,0" Text="Hello" TextWrapping="Wrap" VerticalAlignment="Top" Height="270" Width="1209" FontSize="36"/>
+    </Grid>
+</Page>
+

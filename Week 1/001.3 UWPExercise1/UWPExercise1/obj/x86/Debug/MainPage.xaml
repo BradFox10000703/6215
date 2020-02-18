@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="UWPExercise1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPExercise1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <Grid Opacity="0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/sea.gif"/>
+        </Grid.Background>
+        <Button Content="Button" Margin="137,608,0,0" VerticalAlignment="Top" Height="80" Width="281">
+            <Button.Background>
+                <AcrylicBrush TintColor="#CC192263"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" Margin="448,608,0,0" VerticalAlignment="Top" Height="80" Width="281"/>
+
+    </Grid>
+</Page>
+
